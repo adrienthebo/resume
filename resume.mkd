@@ -1,0 +1,109 @@
+Adrien Thebo
+
+adrien@somethingsinistral.net
+
+2130 S.W. Camelot Court #11
+Portland, Oregon, 97225
+(208) - 860 - 8702
+
+Objective
+---------
+
+Utilize systems administration and software development experience to automate
+the production of secure, effective, reliable computer networks.
+
+Qualifications
+--------------
+
+### Operating systems
+
+  * Debian/Ubuntu GNU/Linux
+  * Redhat/Centos Linux
+  * Gentoo Linux
+
+  * FreeBSD
+  * Solaris
+  * AIX
+
+  * Windows Server 2003
+  * Windows 7
+  * Windows XP
+
+### Languages
+
+  * Ruby
+  * Python
+  * Perl
+
+  * Puppet
+  * Bash
+
+  * Java
+  * C
+  * C++
+
+  * SQL
+  * XML
+
+  * HTML
+  * CSS
+
+### Technologies
+
+  * Nginx
+  * Apache
+  * PostgreSQL
+  * Git
+  * Virtualbox/Vagrant
+  * VMWare ESX
+  * KVM/Libvirt
+
+Experience
+----------
+
+### Puppet Labs
+
+
+### Computer Action Team
+
+
+  {\bf Unix Systems Administrator} \>Computer Action Team, \>Fall 2009 - Present\\
+			   \>Portland, OR
+  \end{tabbing}\vspace{-20pt}      % suppress blank line after tabbing
+  Maintained and upgraded server, client, and network infrastructure, configured
+  and maintained system software. Worked extensively with students and faculty to
+  provide for their computing needs.
+
+  \vspace{-0.21in}
+
+  \begin{tabbing}
+  \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+  {\bf Contract Web Development} \>Immigration Legal Clinic\> Winter 2009\\
+			\>Boulder, Colorado
+  \end{tabbing}\vspace{-20pt}
+  Used Groovy and Grails to create custom client tracking web application.
+  Worked under open source license, and code is freely available at
+  \url{http://code.google.com/p/ilcdb}
+
+  \vspace{-0.21in}
+
+  \begin{tabbing}%
+  \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+  {\bf Threat Prevention Team}  \>eSoft Incorporated \> Summer 2007, 2008\\
+			\>Broomfield, Colorado
+  \end{tabbing}\vspace{-20pt}
+  Implemented significant parts of a realtime blackhole list system based
+  against spammers, Codeveloped a log parser and aggregator with an ExtJS
+  based webconsole. Wrote extensive URL collection and spirdering
+  scripts for the Sitefilter product.
+
+  \vspace{-0.21in}
+
+  \begin{tabbing}%
+  \hspace{2.3in}\= \hspace{2.6in}\= \kill % set up two tab positions
+  {\bf Systems Administrator} \>Quantum Point Technologies\> 2005 - 2006\\
+			\>Boise, Idaho
+  \end{tabbing}\vspace{-20pt}
+  Performed on-demand work for small businesses, including network hardware
+  configuration, and server and client configuration and maintenace.
+
