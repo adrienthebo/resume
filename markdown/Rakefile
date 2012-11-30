@@ -1,0 +1,26 @@
+$LOAD_PATH << File.join(File.dirname(__FILE__), 'lib')
+
+require 'fileutils'
+require 'formatter'
+
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require(:default)
+
+ROOT = "#{File.dirname(__FILE__)}"
+
+task :compile => ["#{ROOT}/output", "#{ROOT}/output/resume.css"] do
+
+  File.open("#{ROOT}/output/resume.html", 'w') do |file|
+
+    f = Formatter.new("#{ROOT}/resume.mkd", "#{ROOT}/layouts/resume.html")
+
+    file.write f.render!
+  end
+end
+
+directory "#{ROOT}/output"
+
+file "#{ROOT}/output/resume.css" => ["#{ROOT}/output"] do |file|
+  FileUtils.cp "#{ROOT}/srt/resume.css", file.name
+end
