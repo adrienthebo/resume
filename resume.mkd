@@ -6,6 +6,11 @@ adrien@somethingsinistral.net
 Portland, Oregon, 97225
 (208) - 860 - 8702
 
+- - -
+
+  * blog: http://somethingsinistral.net/blog
+  * github: https://github.com/adrienthebo
+
 Objective
 ---------
 
@@ -112,4 +117,31 @@ June 2005 - August 2006
 
   Performed on-demand work for small businesses, including network hardware
   configuration, and server and client configuration and maintenace.
+
+Education
+---------
+
+### Portland State University
+
+Portland State University, Portland, Oregon
+Degree program in Computer Science, September 2009 - March 2012
+
+#### Activities
+
+  * Computer Science Tutor, September 2010 - December 2010
+  * Volunteer Systems Administration instructor, May 2010 - December 2011
+  * Chair of the Association of Computing Machinery, January 2010 - May 2010
+  * Project Manager/Developer for Computer Science department website
+  * ACM Computer Science Tutor, September 2009 - December 2009
+
+### Colorado State University
+
+Degree program in Computer Science and Applied Computing Technology, August 2006 - December 2008
+
+#### Activities
+
+  * Resident Assistant for Ingersoll Hall, January 2008 - June 2008
+  * Fourth Place at NetSec Capture the Flag competition with the Air Force Academy, 2007
+  * Undergraduate research in speech recognition, 2008
+  * Undergraduate research in Biomimetic vision, 2007
 
