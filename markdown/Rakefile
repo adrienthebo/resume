@@ -13,7 +13,7 @@ task :compile => ["#{ROOT}/output", "#{ROOT}/output/resume.css"] do
 
   File.open("#{ROOT}/output/resume.html", 'w') do |file|
 
-    f = Formatter.new("#{ROOT}/resume.mkd", "#{ROOT}/layouts/resume.html")
+    f = Formatter.new(ROOT)
 
     file.write f.render!
   end

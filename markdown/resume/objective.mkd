@@ -1,0 +1,5 @@
+Objective
+---------
+
+Utilize systems administration and software development experience to automate
+the production of secure, effective, reliable computer networks.

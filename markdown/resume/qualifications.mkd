@@ -1,0 +1,45 @@
+Qualifications
+--------------
+
+### Operating systems
+
+  * Debian/Ubuntu GNU/Linux
+  * Redhat/CentOS/Fedora Linux
+  * Gentoo Linux
+
+  * FreeBSD
+  * Solaris
+  * AIX
+
+  * Windows Server 2003
+  * Windows 7
+  * Windows XP
+
+### Languages
+
+  * Ruby
+  * Python
+  * Perl
+
+  * Puppet
+  * Bash
+
+  * Java
+  * C
+  * C++
+
+  * SQL
+  * XML
+
+  * HTML
+  * CSS
+
+### Technologies
+
+  * Nginx
+  * Apache
+  * PostgreSQL
+  * Git
+  * Virtualbox/Vagrant
+  * VMWare ESX
+  * KVM/Libvirt

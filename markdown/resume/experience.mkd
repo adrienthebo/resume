@@ -1,0 +1,54 @@
+Experience
+----------
+
+### Puppet Labs
+
+Position: Operations Engineer
+
+November 2011 - Present
+
+### Puppet Labs
+
+Position: Operations Intern
+
+March 2011 - November 2011
+
+
+### Computer Action Team
+
+Position: Unix Systems Administrator
+
+October 2009 - May 2011
+
+  Maintained and upgraded server, client, and network infrastructure, configured
+  and maintained system software. Worked extensively with students and faculty to
+  provide for their computing needs.
+
+### Immigration Legal Clinic
+
+Position: Contract Web Developer
+
+Winter 2009
+
+  Used Groovy and Grails to create custom client tracking web application.
+  Worked under open source license, and code is freely available at http://code.google.com/p/ilcdb
+
+### eSoft Incorporated
+
+Position: Threat Prevention Team Intern
+
+Summer 2007, 2008
+
+Implemented significant parts of a realtime blackhole list system based
+against spammers, Codeveloped a log parser and aggregator with an ExtJS
+based webconsole. Wrote extensive URL collection and spirdering
+scripts for the Sitefilter product.
+
+### Quantum Point Technologies
+
+Windows Systems Administrator
+
+June 2005 - August 2006
+
+  Performed on-demand work for small businesses, including network hardware
+  configuration, and server and client configuration and maintenace.

@@ -2,14 +2,15 @@ require 'erb'
 require 'kramdown'
 
 class Formatter
-  def initialize(mkd, layout)
-    @mkd, @layout = mkd, layout
+  def initialize(root)
+    @root = root
+
+    @layout = File.join(@root, 'layouts', 'resume.html')
   end
 
   def render!
-    body = render_markdown
-
-    layout() { body }
+    puts "Using layout #{@layout}"
+    layout()
   end
 
   private
@@ -17,14 +18,19 @@ class Formatter
   def render_markdown
     content = File.read(@mkd)
 
-    body = Kramdown::Document.new(content)
-
-    body.to_html
   end
 
   def layout(&block)
     l = File.read(@layout)
 
     ERB.new(l).result(binding)
+  end
+
+  def partial(name)
+    puts "Inserting partial #{name}"
+    content = File.read(File.join(@root, 'resume', name))
+
+    body = Kramdown::Document.new(content)
+    body.to_html
   end
 end

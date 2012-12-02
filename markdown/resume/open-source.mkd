@@ -1,0 +1,6 @@
+Open Source
+-----------
+
+  * Github: https://github.com/adrienthebo
+  * Puppet Forge: https://forge.puppetlabs.com/adrien
+  * Ruby Gems: http://rubygems.org/adrienthebo
