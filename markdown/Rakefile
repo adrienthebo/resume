@@ -9,7 +9,9 @@ Bundler.require(:default)
 
 ROOT = "#{File.dirname(__FILE__)}"
 
-task :compile => ["#{ROOT}/output", "#{ROOT}/output/resume.css"] do
+task :compile => ["#{ROOT}/output", "#{ROOT}/output/resume.css", :compass]
+
+task :compile do
 
   File.open("#{ROOT}/output/resume.html", 'w') do |file|
 
@@ -21,6 +23,14 @@ end
 
 directory "#{ROOT}/output"
 
-file "#{ROOT}/output/resume.css" => ["#{ROOT}/output"] do |file|
-  FileUtils.cp "#{ROOT}/srt/resume.css", file.name
+task "#{ROOT}/output/resume.css" => ["#{ROOT}/output"] do |file|
+  FileUtils.cp "#{ROOT}/srt/resume.css", "#{ROOT}/output/resume.css"
 end
+
+task :compass do
+  Dir.chdir(ROOT) do
+    sh %{bundle exec compass compile}
+  end
+end
+
+task :default => :compile
