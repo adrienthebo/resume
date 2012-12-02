@@ -1,0 +1,4 @@
+guard :rake, :task => :compile do
+  watch 'resume.mkd'
+  watch 'layouts/resume.html'
+end
