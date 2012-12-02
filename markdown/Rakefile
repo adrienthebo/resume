@@ -9,7 +9,7 @@ Bundler.require(:default)
 
 ROOT = "#{File.dirname(__FILE__)}"
 
-task :compile => ["#{ROOT}/output", "#{ROOT}/output/resume.css", :compass]
+task :compile => ["#{ROOT}/output", :compass]
 
 task :compile do
 
@@ -22,10 +22,6 @@ task :compile do
 end
 
 directory "#{ROOT}/output"
-
-task "#{ROOT}/output/resume.css" => ["#{ROOT}/output"] do |file|
-  FileUtils.cp "#{ROOT}/srt/resume.css", "#{ROOT}/output/resume.css"
-end
 
 task :compass do
   Dir.chdir(ROOT) do
