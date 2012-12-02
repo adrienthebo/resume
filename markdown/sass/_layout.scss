@@ -1,0 +1,15 @@
+
+.container {
+  @include zen-grid-container;
+}
+
+#contact {
+  ul {
+    float: right;
+
+    li {
+      list-style-type: none;
+      display: inline;
+    }
+  }
+}
