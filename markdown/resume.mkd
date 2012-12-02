@@ -1,6 +1,0 @@
-
-- - -
-
-  * blog: http://somethingsinistral.net/blog
-  * github: https://github.com/adrienthebo
-
