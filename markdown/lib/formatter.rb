@@ -27,7 +27,8 @@ class Formatter
   end
 
   def partial(name)
-    puts "Inserting partial #{name}"
+
+    puts "partial (#{name}) -> (#{@layout})"
     content = File.read(File.join(@root, 'resume', name))
 
     body = Kramdown::Document.new(content)
