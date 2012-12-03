@@ -16,6 +16,10 @@
 
 #title {
   @include zen-grid-item(7, 1);
+
+  h1 {
+    margin-bottom: 0.25em;
+  }
 }
 
 #contact {
@@ -30,13 +34,17 @@
   }
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   @include zen-clear();
 }
 
 
-#objective, #open-source, #push, #fuck, #qualifications, #experience, #education {
+#objective, #open-source, #qualifications, #experience, #education {
   @include zen-grid-item(12, 1);
   @include zen-clear();
+
+  p, ul {
+    @include zen-clear();
+  }
 }
 
