@@ -1,0 +1,10 @@
+
+### Technologies
+
+  * Nginx
+  * Apache
+  * PostgreSQL
+  * Git
+  * Virtualbox/Vagrant
+  * VMWare ESX
+  * KVM/Libvirt

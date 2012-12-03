@@ -1,0 +1,34 @@
+
+{::options parse_block_html="true" /}
+
+<div id="qualifications-languages1">
+#### Dynamic
+
+  * Ruby
+  * Python
+  * Perl
+</div>
+
+<div id="qualifications-languages2">
+#### WAT
+
+  * Puppet
+  * Bash
+</div>
+
+<div id="qualifications-languages3">
+#### Static
+
+  * Java
+  * C
+  * C++
+</div>
+
+<div id="qualifications-languages4">
+#### Declarative
+
+  * SQL
+  * XML
+  * HTML
+  * CSS
+</div>
