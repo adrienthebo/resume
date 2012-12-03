@@ -34,4 +34,16 @@ class Formatter
     body = Kramdown::Document.new(content)
     body.to_html
   end
+
+  def section(name)
+
+    section_id = name[/[^.]+/].gsub(/\//, '-')
+
+    str = <<-EOD
+    <section id="#{section_id}">
+      #{partial(name)}
+    </section>
+    EOD
+
+  end
 end
