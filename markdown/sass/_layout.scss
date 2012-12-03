@@ -38,7 +38,6 @@ h1, h2, h3, h4 {
   @include zen-clear();
 }
 
-
 #objective, #open-source, #qualifications, #experience, #education {
   @include zen-grid-item(12, 1);
   @include zen-clear();
@@ -48,3 +47,11 @@ h1, h2, h3, h4 {
   }
 }
 
+#qualifications-platform-linux   { @include zen-grid-item(4, 1) }
+#qualifications-platform-unix    { @include zen-grid-item(4, 5) }
+#qualifications-platform-windows { @include zen-grid-item(4, 9) }
+
+#qualifications-languages1 { @include zen-grid-item(3, 1) }
+#qualifications-languages2 { @include zen-grid-item(3, 4) }
+#qualifications-languages3 { @include zen-grid-item(3, 7) }
+#qualifications-languages4 { @include zen-grid-item(3, 10) }
