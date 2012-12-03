@@ -1,22 +1,35 @@
 Experience
 ----------
 
-### Puppet Labs
+{::options parse_block_html="true" /}
 
-Position: Operations Engineer
+
+### Puppet Labs
+{: class="experience-title" /}
+
+**Position**: Operations Engineer
 
 November 2011 - Present
 
+Built and automated internal infrastructure to facilitate 300% company growth within a year.
+Architected and built out highly available web applications and infrastructure for N-1 fault
+tolerance. Developed and open sourced internal Puppet manifests. Found and patched bugs in Puppet
+and submitted changes to upstream project. Worked with other departments to provide a
+multi-tenant Puppet infrastructure.
+
 ### Puppet Labs
 
-Position: Operations Intern
+**Position**: Operations Intern
 
 March 2011 - November 2011
 
+Acted as maintainer and primary developer of Facter. Performed project management
+tasks. Engaged community members and curated pull requests. Fostered engagement and growth
+within the community. Independently Handled ticket triage and development.
 
 ### Computer Action Team
 
-Position: Unix Systems Administrator
+**Position**: Unix Systems Administrator
 
 October 2009 - May 2011
 
@@ -26,7 +39,7 @@ October 2009 - May 2011
 
 ### Immigration Legal Clinic
 
-Position: Contract Web Developer
+**Position**: Contract Web Developer
 
 Winter 2009
 
@@ -35,7 +48,7 @@ Winter 2009
 
 ### eSoft Incorporated
 
-Position: Threat Prevention Team Intern
+**Position**: Threat Prevention Team Intern
 
 Summer 2007, 2008
 
@@ -46,7 +59,7 @@ scripts for the Sitefilter product.
 
 ### Quantum Point Technologies
 
-Windows Systems Administrator
+**Position**: Windows Systems Administrator
 
 June 2005 - August 2006
 

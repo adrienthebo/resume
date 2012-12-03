@@ -47,6 +47,22 @@ h1, h2, h3, h4 {
   }
 }
 
+.experience-header {
+
+  .experience-job {
+    @include zen-grid-item(8, 1);
+  }
+
+  .experience-title {
+    @include zen-grid-item(4, 1, right);
+  }
+
+  .experience-time {
+    @include zen-clear(right);
+    @include zen-grid-item(4, 1, right);
+  }
+}
+
 #qualifications-platform-linux   { @include zen-grid-item(4, 1) }
 #qualifications-platform-unix    { @include zen-grid-item(4, 5) }
 #qualifications-platform-windows { @include zen-grid-item(4, 9) }
@@ -55,3 +71,8 @@ h1, h2, h3, h4 {
 #qualifications-languages2 { @include zen-grid-item(3, 4) }
 #qualifications-languages3 { @include zen-grid-item(3, 7) }
 #qualifications-languages4 { @include zen-grid-item(3, 10) }
+
+#qualifications-technologies1 { @include zen-grid-item(4, 1) }
+#qualifications-technologies2 { @include zen-grid-item(4, 5) }
+#qualifications-technologies3 { @include zen-grid-item(4, 9) }
+

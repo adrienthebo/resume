@@ -1,10 +1,22 @@
-
 ### Technologies
 
+{::options parse_block_html="true" /}
+
+<div id="qualifications-technologies1">
   * Nginx
   * Apache
   * PostgreSQL
+</div>
+
+<div id="qualifications-technologies2">
   * Git
   * Virtualbox/Vagrant
   * VMWare ESX
   * KVM/Libvirt
+</div>
+
+<div id="qualifications-technologies3">
+  * Mcollective
+  * ActiveMQ
+  * Puppet
+</div>
