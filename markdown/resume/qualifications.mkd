@@ -3,34 +3,32 @@ Qualifications
 
 ### Operating systems
 
-  * Debian/Ubuntu GNU/Linux
-  * Redhat/CentOS/Fedora Linux
-  * Gentoo Linux
 
-  * FreeBSD
-  * Solaris
-  * AIX
 
-  * Windows Server 2003
-  * Windows 7
-  * Windows XP
 
 ### Languages
+
+#### Dynamic
 
   * Ruby
   * Python
   * Perl
 
+#### WAT
+
   * Puppet
   * Bash
+
+#### Static
 
   * Java
   * C
   * C++
 
+#### Declarative
+
   * SQL
   * XML
-
   * HTML
   * CSS
 

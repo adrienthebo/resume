@@ -18,23 +18,24 @@
     <div id="container">
 
         <section id="title">
-          <h1>adrien thebo</h1>
+          <h1>Adrien Thebo</h1>
           <span style="font-style: italic;">operations &amp; software engineer</span>
         </section>
-        <section id="contact">
-          <%= partial 'contact.mkd' %>
-        </section>
 
-        <section id="objective">
-          <%= partial 'objective.mkd' %>
-        </section>
+        <%= section 'contact.mkd' %>
 
-        <section id="open-source">
-          <%= partial 'open-source.mkd' %>
-        </section>
+        <%= section 'objective.mkd' %>
 
-        <section id="qualifications">
-          <%= partial 'qualifications.mkd' %>
+        <%= section 'open-source.mkd' %>
+
+        <section id="qualifications" %>
+
+          <h2>Platforms</h2>
+          <%= section 'qualifications/platform/linux.mkd' %>
+          <%= section 'qualifications/platform/unix.mkd' %>
+          <%= section 'qualifications/platform/windows.mkd' %>
+
+
         </section>
 
         <section id="experience">
