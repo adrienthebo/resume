@@ -10,37 +10,41 @@
     <link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
 
-    <link href="http://fonts.googleapis.com/css?family=PT+Sans%7Glegoo" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Glegoo|Arvo|PT+Sans|PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+
 
   </head>
   <body>
-    <div class="container">
-      <article>
+    <div id="container">
+
+        <section id="title">
+          <h1>adrien thebo</h1>
+          <span style="font-style: italic;">operations &amp; software engineer</span>
+        </section>
         <section id="contact">
           <%= partial 'contact.mkd' %>
         </section>
 
-        <section clss="objective">
+        <section id="objective">
           <%= partial 'objective.mkd' %>
         </section>
 
-        <section class="open-source">
+        <section id="open-source">
           <%= partial 'open-source.mkd' %>
         </section>
 
-        <section class="qualifications">
+        <section id="qualifications">
           <%= partial 'qualifications.mkd' %>
         </section>
 
-        <section class="experience">
+        <section id="experience">
           <%= partial 'experience.mkd' %>
         </section>
 
-        <section class="education">
+        <section id="education">
           <%= partial 'education.mkd' %>
         </section>
 
-      </article>
     </div>
   </body>
 </html>

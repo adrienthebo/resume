@@ -3,7 +3,21 @@
   font-family: 'PT Sans', sans-serif;
 }
 
+h1 {
+  font-family: 'Glegoo', serif;
+  font-size: 24px;
+}
+
 h2 {
-  font-family: Glegoo, Georgia, serif;
-  border-bottom: 1px solid #ccc;
+  font-family: 'Arvo', sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
 }
