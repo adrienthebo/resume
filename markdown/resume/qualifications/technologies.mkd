@@ -6,17 +6,30 @@
   * Nginx
   * Apache
   * PostgreSQL
+  * Graphite
+  * Git
 </div>
 
 <div id="qualifications-technologies2">
-  * Git
+  * Puppet
+  * Mcollective
+  * ActiveMQ
   * Virtualbox/Vagrant
-  * VMWare ESX
   * KVM/Libvirt
 </div>
 
 <div id="qualifications-technologies3">
-  * Mcollective
-  * ActiveMQ
-  * Puppet
+  * SSL/TLS
+  * X.509
+  * GPG
+  * SSH
+  * Wireshark/tcpdump
+</div>
+
+<div id="qualifications-technologies4">
+  * TCP/UDP
+  * IPv4/IPv6
+  * PF/IPTables
+  * HTTP
+  * DNS
 </div>
