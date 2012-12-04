@@ -1,5 +1,5 @@
 #### Linux
 
-  * Debian/Ubuntu GNU/Linux
-  * Redhat/CentOS/Fedora Linux
-  * Gentoo Linux
+  * Debian/Ubuntu
+  * Redhat/CentOS/Fedora
+  * Gentoo
