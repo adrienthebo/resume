@@ -1,9 +1,14 @@
+@import "base";
+
+body {
+  margin: 0;
+}
 
 #container {
   @include zen-grid-container;
+  @include establish-baseline;
   width: 960px;
 
-  margin-top: 1in;
   margin-left: auto;
   margin-right: auto;
 
@@ -36,6 +41,11 @@
 
 h1, h2, h3, h4 {
   @include zen-clear();
+}
+
+h3, h4{
+  @include margin-leader(0);
+  @include margin-trailer(0);
 }
 
 #objective, #open-source, #qualifications, #experience, #education {
@@ -72,7 +82,7 @@ h1, h2, h3, h4 {
 #qualifications-languages3 { @include zen-grid-item(3, 7) }
 #qualifications-languages4 { @include zen-grid-item(3, 10) }
 
-#qualifications-technologies1 { @include zen-grid-item(4, 1) }
-#qualifications-technologies2 { @include zen-grid-item(4, 5) }
-#qualifications-technologies3 { @include zen-grid-item(4, 9) }
-
+#qualifications-technologies1 { @include zen-grid-item(3, 1) }
+#qualifications-technologies2 { @include zen-grid-item(3, 4) }
+#qualifications-technologies3 { @include zen-grid-item(3, 7) }
+#qualifications-technologies4 { @include zen-grid-item(3, 10) }
