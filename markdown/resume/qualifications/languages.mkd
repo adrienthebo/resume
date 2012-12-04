@@ -4,23 +4,23 @@
 
 <div id="qualifications-languages1">
   * Ruby
+  * Puppet
   * Python
-  * Perl
 </div>
 
 <div id="qualifications-languages2">
-  * Puppet
   * Bash
+  * Perl
+  * Java
 </div>
 
 <div id="qualifications-languages3">
-  * Java
   * C
   * C++
+  * SQL
 </div>
 
 <div id="qualifications-languages4">
-  * SQL
   * XML
   * HTML
   * CSS
