@@ -3,9 +3,8 @@ Education
 
 ### Portland State University
 
-Portland State University, Portland, Oregon
-Attended September 2009 - March 2012
-Computer Science
+Attended September 2009 - March 2012 <br />
+Computer Science <br />
 
 #### Activities
 
@@ -17,8 +16,7 @@ Computer Science
 
 ### Colorado State University
 
-Colorado State University, Fort Collins, Colorado<br />
-Attended Auguest 2006 - December 2008<br />
+Attended August 2006 - December 2008<br />
 Computer Science/Applied Computing Technology<br />
 
 #### Activities
