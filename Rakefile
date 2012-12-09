@@ -12,7 +12,7 @@ require 'bundler/setup'
 Bundler.require(:default)
 
 task :compile => :compass do
-  File.open("#{__ROOT__}/output/resume.html", 'w') do |file|
+  File.open("#{__ROOT__}/output/index.html", 'w') do |file|
     content = Formatter.new(__ROOT__).render!
     file.write content
   end
