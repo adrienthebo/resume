@@ -1,4 +1,8 @@
-$LOAD_PATH << File.join(File.dirname(__FILE__), 'lib')
+def __ROOT__
+  @__root__ ||= File.dirname(__FILE__)
+end
+
+$LOAD_PATH << File.join(__ROOT__, 'lib')
 
 require 'fileutils'
 require 'formatter'
@@ -7,24 +11,15 @@ require 'rubygems'
 require 'bundler/setup'
 Bundler.require(:default)
 
-ROOT = "#{File.dirname(__FILE__)}"
-
-task :compile => ["#{ROOT}/output", :compass]
-
-task :compile do
-
-  File.open("#{ROOT}/output/resume.html", 'w') do |file|
-
-    f = Formatter.new(ROOT)
-
-    file.write f.render!
+task :compile => :compass do
+  File.open("#{__ROOT__}/output/resume.html", 'w') do |file|
+    content = Formatter.new(__ROOT__).render!
+    file.write content
   end
 end
 
-directory "#{ROOT}/output"
-
 task :compass do
-  Dir.chdir(ROOT) do
+  Dir.chdir(__ROOT__) do
     sh %{bundle exec compass compile}
   end
 end
