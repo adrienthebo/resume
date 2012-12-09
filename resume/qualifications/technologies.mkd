@@ -2,7 +2,7 @@
 
 {::options parse_block_html="true" /}
 
-<div id="qualifications-technologies1">
+<div class="col1of4">
   * Nginx
   * Apache
   * PostgreSQL
@@ -10,7 +10,7 @@
   * Git
 </div>
 
-<div id="qualifications-technologies2">
+<div class="col2of4">
   * Puppet
   * Mcollective
   * ActiveMQ
@@ -18,7 +18,7 @@
   * KVM/Libvirt
 </div>
 
-<div id="qualifications-technologies3">
+<div class="col3of4">
   * SSL/TLS
   * X.509
   * GPG
@@ -26,7 +26,7 @@
   * Wireshark/tcpdump
 </div>
 
-<div id="qualifications-technologies4">
+<div class="col4of4">
   * TCP/UDP
   * IPv4/IPv6
   * PF/IPTables

@@ -2,25 +2,25 @@
 
 {::options parse_block_html="true" /}
 
-<div id="qualifications-languages1">
+<div class="col1of4">
   * Ruby
   * Puppet
   * Python
 </div>
 
-<div id="qualifications-languages2">
+<div class="col2of4">
   * Bash
   * Perl
   * Java
 </div>
 
-<div id="qualifications-languages3">
+<div class="col3of4">
   * C
   * C++
   * SQL
 </div>
 
-<div id="qualifications-languages4">
+<div class="col4of4">
   * XML
   * HTML
   * CSS

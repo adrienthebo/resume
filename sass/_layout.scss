@@ -73,16 +73,11 @@ h3, h4{
   }
 }
 
-#qualifications-platform-linux   { @include zen-grid-item(4, 1) }
-#qualifications-platform-unix    { @include zen-grid-item(4, 5) }
-#qualifications-platform-windows { @include zen-grid-item(4, 9) }
+.col1of3 { @include zen-grid-item(4, 1); }
+.col2of3 { @include zen-grid-item(4, 5); }
+.col3of3 { @include zen-grid-item(4, 9); }
 
-#qualifications-languages1 { @include zen-grid-item(3, 1) }
-#qualifications-languages2 { @include zen-grid-item(3, 4) }
-#qualifications-languages3 { @include zen-grid-item(3, 7) }
-#qualifications-languages4 { @include zen-grid-item(3, 10) }
-
-#qualifications-technologies1 { @include zen-grid-item(3, 1) }
-#qualifications-technologies2 { @include zen-grid-item(3, 4) }
-#qualifications-technologies3 { @include zen-grid-item(3, 7) }
-#qualifications-technologies4 { @include zen-grid-item(3, 10) }
+.col1of4 { @include zen-grid-item(3, 1); }
+.col2of4 { @include zen-grid-item(3, 4); }
+.col3of4 { @include zen-grid-item(3, 7); }
+.col4of4 { @include zen-grid-item(3, 10); }
