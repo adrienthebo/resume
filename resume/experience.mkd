@@ -3,13 +3,20 @@ Experience
 
 {::options parse_block_html="true" /}
 
+### Puppet Labs
+
+**Position**: Software Engineer
+
+January 2013 - Present
+
+
 
 ### Puppet Labs
 {: class="experience-title" /}
 
 **Position**: Operations Engineer
 
-November 2011 - Present
+November 2011 - January 2013
 
 Built and automated internal infrastructure to facilitate 300% company growth within a year.
 Architected and built out highly available web applications and infrastructure for N-1 fault
