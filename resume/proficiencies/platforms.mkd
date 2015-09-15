@@ -1,0 +1,21 @@
+### Platforms
+
+<div class="col1of4">
+  * Debian/Ubuntu
+  * Redhat/CentOS
+</div>
+
+<div class="col2of4">
+  * OSX
+  * FreeBSD/OpenBSD
+</div>
+
+<div class="col3of4">
+  * Solaris
+  * AIX
+</div>
+
+<div class="col4of4">
+  * Gentoo
+  * Arch Linux
+</div>

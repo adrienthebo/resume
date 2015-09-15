@@ -5,13 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta charset="utf-8">
 
-    <title>Adrien Thebo | Operations &amp; Software Engineer | adrien@somethingsinistral.net</title>
+    <title>Adrien Thebo | Operations &amp; Software Engineer | contact@somethingsinistral.net</title>
     <link rel="stylesheet" type="text/css" href="css/screen.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
 
     <link href='http://fonts.googleapis.com/css?family=Glegoo|Arvo|PT+Sans|PT+Sans+Narrow' rel='stylesheet' type='text/css'>
-
-
   </head>
   <body>
     <div id="container">
@@ -20,29 +18,27 @@
 
         <%= section 'contact.mkd' %>
 
-        <%= section 'objective.mkd' %>
+        <%= section 'about.mkd' %>
 
         <%= section 'open-source.mkd' %>
-
-        <section>
-          <h2>Qualifications</h2>
-
-          <%= section 'qualifications/languages.mkd' %>
-
-          <%= section 'qualifications/platforms.mkd' %>
-
-          <%= section 'qualifications/technologies.mkd' %>
-
-        </section>
 
         <section id="experience">
           <%= partial 'experience.mkd' %>
         </section>
 
+        <section id="proficiencies">
+          <h2>Proficiencies</h2>
+
+          <%= section 'proficiencies/languages.mkd' %>
+
+          <%= section 'proficiencies/platforms.mkd' %>
+
+          <%= section 'proficiencies/technologies.mkd' %>
+        </section>
+
         <section id="education">
           <%= partial 'education.mkd' %>
         </section>
-
     </div>
   </body>
 </html>

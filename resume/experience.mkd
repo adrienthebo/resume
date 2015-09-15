@@ -1,74 +1,68 @@
 Experience
 ----------
 
-{::options parse_block_html="true" /}
-
 ### Puppet Labs
 
-**Position**: Software Engineer
+#### **Lead Software Engineer** \| December 2014 - present
+{: .experience-title :}
 
-January 2013 - Present
+Led development of a previously community driven open source project, continued open source development of the project and integrated it into the company commercial offerings.
 
+##### Highlights
 
+  * Migrated a successful personal open source project to a company sponsored product
+  * Worked with multiple engineering teams to ship new Ruby based features
+  * Developed and shipped new Clojure based services from scratch
 
-### Puppet Labs
-{: class="experience-title" /}
+#### **Software Engineer** \| January 2013 - December 2014
+{: .experience-title :}
 
-**Position**: Operations Engineer
+Developed on the Puppet, Facter, and Hiera projects, worked with and merged open source contributions, and provided input on security/cryptography based questions and concerns.
 
-November 2011 - January 2013
+  * Worked with community members to get community contributions merged
+  * Developed low level integrations in Puppet to manage a wide variety of platforms and resources.
+  * Developed extensions for the Puppet X.509 PKI implementation.
+  * Analyzed security vulnerabilities (such as POODLE) for impact and devised security remediations
 
-Built and automated internal infrastructure to facilitate 300% company growth within a year.
-Architected and built out highly available web applications and infrastructure for N-1 fault
-tolerance. Developed and open sourced internal Puppet manifests. Found and patched bugs in Puppet
-and submitted changes to upstream project. Worked with other departments to provide a
-multi-tenant Puppet infrastructure.
+#### **Operations Engineer** \| November 2011 - January 2013
+{: .experience-title :}
 
-### Puppet Labs
+Built and automated company IT infrastructure using configuration management to scale out systems to meet the needs of a rapidly growing startup.
 
-**Position**: Operations Intern
+##### Highlights
 
-March 2011 - November 2011
+  * Designed and built highly available fault web service infrastructure
+  * Developed tens of thousands of lines of Puppet manifests and plugins.
+  * Independently found and contributed fixes for issues in the company open source projects
 
-Acted as maintainer and primary developer of Facter. Performed project management
-tasks. Engaged community members and curated pull requests. Fostered engagement and growth
-within the community. Independently Handled ticket triage and development.
+#### **Operations Intern** \| March 2011 - November 2011
+{: .experience-title :}
 
-### Computer Action Team
+Helped build out company IT infrastructure using configuration management and took on auxiliary development responsibilities.
 
-**Position**: Unix Systems Administrator
+##### Highlights
 
-October 2009 - May 2011
+  * Developed Puppet modules and infrastructure for the development and QA teams.
+  * Helped maintain and build out physical compute and network infrastructure.
+  * Acted as maintainer and primary developer of Facter
 
-  Maintained and upgraded server, client, and network infrastructure, configured
-  and maintained system software. Worked extensively with students and faculty to
-  provide for their computing needs.
+### PSU - Maseeh College of Engineering and Computer Science
 
-### Immigration Legal Clinic
+#### **Unix/Linux Systems Administrator** \| October 2009 - May 2011
+{: .experience-title :}
 
-**Position**: Contract Web Developer
-
-Winter 2009
-
-  Used Groovy and Grails to create custom client tracking web application.
-  Worked under open source license, and code is freely available at http://code.google.com/p/ilcdb
+Maintained and improved the existing heterogeneous server infrastructure for the College of Engineering and Computer Science, while serving the needs of the faculty and student body.
 
 ### eSoft Incorporated
 
-**Position**: Threat Prevention Team Intern
+#### **Threat Prevention Team Intern** \| Summer 2007, 2008
+{: .experience-title :}
 
-Summer 2007, 2008
-
-Implemented significant parts of a realtime blackhole list system based
-against spammers, Codeveloped a log parser and aggregator with an ExtJS
-based webconsole. Wrote extensive URL collection and spirdering
-scripts for the Sitefilter product.
+Developed an IP based reputation system for tracking malicious IP addresses, developed web spidering tools for web classification, and reverse engineered malware to write AV and IPS signatures.
 
 ### Quantum Point Technologies
+{: .experience-title :}
 
-**Position**: Windows Systems Administrator
+#### **Windows Systems Administrator** \| June 2005 - August 2006
 
-June 2005 - August 2006
-
-  Performed on-demand work for small businesses, including network hardware
-  configuration, and server and client configuration and maintenace.
+Performed on-demand work for small businesses, including network hardware configuration, and server and client configuration and maintenace.

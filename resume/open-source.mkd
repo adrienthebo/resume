@@ -1,6 +1,13 @@
 Open Source
 -----------
 
-  * Github: https://github.com/adrienthebo
+  * GitHub: https://github.com/adrienthebo
   * Puppet Forge: https://forge.puppetlabs.com/adrien
   * Ruby Gems: http://rubygems.org/adrienthebo
+
+##### Highlights
+
+  * Puppet/Hiera core contributor, 2013 - 2014
+  * Facter maintainer, 2011, 2013 - 2014
+  * Creator of r10k (https://github.com/puppetlabs/r10k), maintainer, 2012 - present
+  * Creator of oscar-stack (https://github.com/oscar-stack), maintainer, 2012 - present

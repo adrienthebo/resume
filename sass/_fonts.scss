@@ -9,19 +9,27 @@ $base-line-height: $base-font-size * (4 / 3);
   font-family: 'PT Sans', sans-serif;
 }
 
+
 h1 {
   font-family: 'Glegoo', serif;
-  font-size: 36px;
+  font-size: 30px;
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
   font-family: 'Arvo', sans-serif;
+};
+
+h2 {
   text-transform: uppercase;
   font-size: 20px;
 }
 
-h3 {
-  font-family: 'Arvo', sans-serif;
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 16px;
 }
 
 a:hover {
@@ -30,4 +38,14 @@ a:hover {
 
 strong {
   font-weight: bold;
+}
+
+h4.experience-title {
+  strong {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  font-weight: normal;
+  font-size: 14px;
 }

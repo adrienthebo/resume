@@ -39,45 +39,47 @@ body {
   }
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   @include zen-clear();
 }
 
-h3, h4{
+h3, h4 {
+  @include margin-leader(0.25);
+  @include margin-trailer(0.25);
+}
+
+h5 {
   @include margin-leader(0);
   @include margin-trailer(0);
 }
 
-#objective, #open-source, #qualifications, #experience, #education {
+#about, #open-source, #qualifications, #experience, #education {
   @include zen-grid-item(12, 1);
   @include zen-clear();
 
-  p, ul {
+  h3, h4, h5, p, ul, li {
+    @include zen-grid-item(11, 2);
     @include zen-clear();
   }
 }
 
-.experience-header {
-
-  .experience-job {
-    @include zen-grid-item(8, 1);
-  }
-
-  .experience-title {
-    @include zen-grid-item(4, 1, right);
-  }
-
-  .experience-time {
-    @include zen-clear(right);
-    @include zen-grid-item(4, 1, right);
-  }
+.experience-title {
+  font-size: 18px;
+  @include margin-leader(0);
+  @include margin-trailer(0);
 }
 
-.col1of3 { @include zen-grid-item(4, 1); }
-.col2of3 { @include zen-grid-item(4, 5); }
-.col3of3 { @include zen-grid-item(4, 9); }
+#proficiencies {
 
-.col1of4 { @include zen-grid-item(3, 1); }
-.col2of4 { @include zen-grid-item(3, 4); }
-.col3of4 { @include zen-grid-item(3, 7); }
-.col4of4 { @include zen-grid-item(3, 10); }
+  .col1of2 { @include zen-grid-item(6, 1); }
+  .col2of2 { @include zen-grid-item(6, 7); }
+
+  .col1of3 { @include zen-grid-item(4, 1); }
+  .col2of3 { @include zen-grid-item(4, 4); }
+  .col3of3 { @include zen-grid-item(4, 8); }
+
+  .col1of4 { @include zen-grid-item(3, 1); }
+  .col2of4 { @include zen-grid-item(3, 4); }
+  .col3of4 { @include zen-grid-item(3, 7); }
+  .col4of4 { @include zen-grid-item(3, 10); }
+}

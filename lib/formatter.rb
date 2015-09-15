@@ -1,5 +1,8 @@
 require 'erb'
 require 'kramdown'
+require 'logger'
+
+$logger = Logger.new($stderr)
 
 class Formatter
   def initialize(root)
@@ -9,15 +12,14 @@ class Formatter
   end
 
   def render!
-    puts "Using layout #{@layout}"
+    $logger.info "Using layout #{@layout}"
     layout()
   end
 
   private
 
   def render_markdown
-    content = File.read(@mkd)
-
+    File.read(@mkd)
   end
 
   def layout(&block)
@@ -28,22 +30,20 @@ class Formatter
 
   def partial(name)
 
-    puts "partial (#{name}) -> (#{@layout})"
+    $logger.info "Including partial #{name}"
     content = File.read(File.join(@root, 'resume', name))
 
-    body = Kramdown::Document.new(content)
+    body = Kramdown::Document.new(content, parse_block_html: true)
     body.to_html
   end
 
   def section(name)
-
     section_id = name[/[^.]+/].gsub(/\//, '-')
 
-    str = <<-EOD
+    <<-EOD
     <section id="#{section_id}">
       #{partial(name)}
     </section>
     EOD
-
   end
 end

@@ -1,0 +1,25 @@
+### Languages
+
+<div class="col1of3">
+
+##### Experienced
+
+Ruby, Puppet
+
+</div>
+
+<div class="col2of3">
+
+##### Familiar
+
+Clojure, Java, C/C++, SQL, Bash
+
+</div>
+
+<div class="col3of3">
+
+##### Dabbled
+
+HTML, CSS, Javascript
+
+</div>

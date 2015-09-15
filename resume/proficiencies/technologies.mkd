@@ -1,0 +1,18 @@
+### Technologies
+
+<div class="col1of2">
+
+  * **Operations**: Puppet, Docker
+  * **Development**: Git, Jenkins
+  * **Web servers**: Apache, Nginx
+  * **Virt**: ESX, VirtualBox, Vagrant
+  * **Cloud**: AWS EC2/S3/IAM, Linode
+
+</div>
+
+<div class="col2of2">
+  * **RDBMS**: PostgreSQL, MySQL
+  * **Non-relational DB**: Cassandra, Redis
+  * **Network protocols**: IPv4/IPv6, TCP, UDP
+  * **Application Protocols**: SSL/TLS, X.509, HTTP
+</div>

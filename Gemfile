@@ -7,3 +7,6 @@ gem 'compass'
 gem 'sass'
 gem 'zen-grids'
 gem 'rake'
+
+gem 'guard'
+gem 'guard-rake'
