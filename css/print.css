@@ -15,20 +15,20 @@ body {
   padding-left: 0.75in;
   padding-right: 0.75in;
 }
-/* line 46, ../../.bundle/ruby/1.9.1/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+/* line 46, ../../.bundle/ruby/2.2.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
 #container:before, #container:after {
   content: "";
   display: table;
 }
-/* line 50, ../../.bundle/ruby/1.9.1/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
+/* line 50, ../../.bundle/ruby/2.2.0/gems/zen-grids-1.4/stylesheets/zen/_grids.scss */
 #container:after {
   clear: both;
 }
-/* line 61, ../../.bundle/ruby/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../.bundle/ruby/2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 #container * html {
   font-size: 100%;
 }
-/* line 64, ../../.bundle/ruby/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../.bundle/ruby/2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 #container html {
   font-size: 16px;
   line-height: 1.5em;
@@ -77,18 +77,24 @@ body {
 }
 
 /* line 42, ../../sass/_layout.scss */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   clear: left;
 }
 
 /* line 46, ../../sass/_layout.scss */
 h3, h4 {
+  margin-top: 0.375em;
+  margin-bottom: 0.375em;
+}
+
+/* line 51, ../../sass/_layout.scss */
+h5 {
   margin-top: 0em;
   margin-bottom: 0em;
 }
 
-/* line 51, ../../sass/_layout.scss */
-#objective, #open-source, #qualifications, #experience, #education {
+/* line 56, ../../sass/_layout.scss */
+#about, #open-source, #qualifications, #experience, #education {
   float: left;
   width: 100%;
   margin-left: 0%;
@@ -102,57 +108,59 @@ h3, h4 {
   word-wrap: break-word;
   clear: left;
 }
-/* line 55, ../../sass/_layout.scss */
-#objective p, #objective ul, #open-source p, #open-source ul, #qualifications p, #qualifications ul, #experience p, #experience ul, #education p, #education ul {
+/* line 60, ../../sass/_layout.scss */
+#about h3, #about h4, #about h5, #about p, #about ul, #about li, #open-source h3, #open-source h4, #open-source h5, #open-source p, #open-source ul, #open-source li, #qualifications h3, #qualifications h4, #qualifications h5, #qualifications p, #qualifications ul, #qualifications li, #experience h3, #experience h4, #experience h5, #experience p, #experience ul, #experience li, #education h3, #education h4, #education h5, #education p, #education ul, #education li {
+  float: left;
+  width: 91.66667%;
+  margin-left: 8.33333%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
   clear: left;
 }
 
-/* line 62, ../../sass/_layout.scss */
-.experience-header .experience-job {
-  float: left;
-  width: 66.66667%;
-  margin-left: 0%;
-  margin-right: -66.66667%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
-}
 /* line 66, ../../sass/_layout.scss */
-.experience-header .experience-title {
-  float: right;
-  width: 33.33333%;
-  margin-right: 0%;
-  margin-left: -33.33333%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
-}
-/* line 70, ../../sass/_layout.scss */
-.experience-header .experience-time {
-  clear: right;
-  float: right;
-  width: 33.33333%;
-  margin-right: 0%;
-  margin-left: -33.33333%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
+.experience-title {
+  font-size: 18px;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
-/* line 76, ../../sass/_layout.scss */
-.col1of3 {
+/* line 74, ../../sass/_layout.scss */
+#proficiencies .col1of2 {
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+/* line 75, ../../sass/_layout.scss */
+#proficiencies .col2of2 {
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+/* line 77, ../../sass/_layout.scss */
+#proficiencies .col1of3 {
   float: left;
   width: 33.33333%;
   margin-left: 0%;
@@ -165,28 +173,12 @@ h3, h4 {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-
-/* line 77, ../../sass/_layout.scss */
-.col2of3 {
-  float: left;
-  width: 33.33333%;
-  margin-left: 33.33333%;
-  margin-right: -66.66667%;
-  padding-left: 10px;
-  padding-right: 10px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  word-wrap: break-word;
-}
-
 /* line 78, ../../sass/_layout.scss */
-.col3of3 {
+#proficiencies .col2of3 {
   float: left;
   width: 33.33333%;
-  margin-left: 66.66667%;
-  margin-right: -100%;
+  margin-left: 25%;
+  margin-right: -58.33333%;
   padding-left: 10px;
   padding-right: 10px;
   -moz-box-sizing: border-box;
@@ -195,9 +187,22 @@ h3, h4 {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-
-/* line 80, ../../sass/_layout.scss */
-.col1of4 {
+/* line 79, ../../sass/_layout.scss */
+#proficiencies .col3of3 {
+  float: left;
+  width: 33.33333%;
+  margin-left: 58.33333%;
+  margin-right: -91.66667%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+/* line 81, ../../sass/_layout.scss */
+#proficiencies .col1of4 {
   float: left;
   width: 25%;
   margin-left: 0%;
@@ -210,9 +215,8 @@ h3, h4 {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-
-/* line 81, ../../sass/_layout.scss */
-.col2of4 {
+/* line 82, ../../sass/_layout.scss */
+#proficiencies .col2of4 {
   float: left;
   width: 25%;
   margin-left: 25%;
@@ -225,9 +229,8 @@ h3, h4 {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-
-/* line 82, ../../sass/_layout.scss */
-.col3of4 {
+/* line 83, ../../sass/_layout.scss */
+#proficiencies .col3of4 {
   float: left;
   width: 25%;
   margin-left: 50%;
@@ -240,9 +243,8 @@ h3, h4 {
   box-sizing: border-box;
   word-wrap: break-word;
 }
-
-/* line 83, ../../sass/_layout.scss */
-.col4of4 {
+/* line 84, ../../sass/_layout.scss */
+#proficiencies .col4of4 {
   float: left;
   width: 25%;
   margin-left: 75%;
@@ -256,12 +258,12 @@ h3, h4 {
   word-wrap: break-word;
 }
 
-/* line 61, ../../.bundle/ruby/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 61, ../../.bundle/ruby/2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 * html {
   font-size: 100%;
 }
 
-/* line 64, ../../.bundle/ruby/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 64, ../../.bundle/ruby/2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 16px;
   line-height: 1.33333em;
@@ -272,31 +274,51 @@ html {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* line 12, ../../sass/_fonts.scss */
+/* line 13, ../../sass/_fonts.scss */
 h1 {
   font-family: 'Glegoo', serif;
-  font-size: 36px;
+  font-size: 30px;
 }
 
-/* line 17, ../../sass/_fonts.scss */
-h2 {
+/* line 18, ../../sass/_fonts.scss */
+h2, h3, h4, h5, h6 {
   font-family: 'Arvo', sans-serif;
+}
+
+/* line 22, ../../sass/_fonts.scss */
+h2 {
   text-transform: uppercase;
   font-size: 20px;
 }
 
-/* line 23, ../../sass/_fonts.scss */
-h3 {
-  font-family: 'Arvo', sans-serif;
+/* line 27, ../../sass/_fonts.scss */
+h5 {
+  font-size: 16px;
 }
 
-/* line 27, ../../sass/_fonts.scss */
+/* line 31, ../../sass/_fonts.scss */
+h6 {
+  font-size: 16px;
+}
+
+/* line 35, ../../sass/_fonts.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 31, ../../sass/_fonts.scss */
+/* line 39, ../../sass/_fonts.scss */
 strong {
+  font-weight: bold;
+}
+
+/* line 43, ../../sass/_fonts.scss */
+h4.experience-title {
+  font-weight: normal;
+  font-size: 14px;
+}
+/* line 44, ../../sass/_fonts.scss */
+h4.experience-title strong {
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -316,4 +338,9 @@ h1, h2, h3, h4 {
 /* line 12, ../../sass/_colors.scss */
 h2 {
   border-bottom: 1px solid #ccc;
+}
+
+/* line 10, ../../sass/print.scss */
+body {
+  margin: 0px;
 }
